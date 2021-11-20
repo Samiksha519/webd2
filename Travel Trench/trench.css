@@ -1,0 +1,297 @@
+div{
+    display: inline-block;
+}
+
+
+#navBar{
+    position: fixed;
+    top: 0%;
+    z-index: 1;;
+    height: 6vw;             
+    width: 100vw;
+    background-color: white;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+#logo{
+    position: relative;
+    left: 10%;
+    top:20% ;
+    height: 80%;
+    width : 22% ;
+    display: inline-flex ;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+#logo a logo-img{
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+#navMenu{
+    display: inline-flex;
+    align-items: center;
+    position: absolute;
+    left: 50% ;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+}
+
+#navMenu .button{
+    border : solid 0px black ;
+    position:relative ;
+    background-color: transparent;
+    /* margin-top :10% ; */
+    border-radius: 100px;
+    padding: 10px 20px 10px 20px;
+    margin : 3% 10% 0% 5% ; 
+
+}
+
+#navMenu .button:hover{
+    color: white ;
+    background-color: #9151a0;
+    transition: all 0.3s ease-in-out ;
+}
+
+/*  Home Section  */ 
+
+#homePhoto{
+    background-image: url("resources/newHome.jpg");
+    height: 80vh;
+    width: 100vw;
+    display: inline-block;
+    object-fit: cover;
+    background-size: cover;
+    text-align: bottom;
+    opacity: 0.9;
+    position: absolute;
+    top: 12%;
+    left: 0%;
+
+}
+
+#tagline{
+    font-size: 1.9rem;
+    font-weight: 900;
+    position: absolute;
+    top: 35%;
+    left: 37%;
+    font-style: normal;
+    font-family:'Montserrat', sans-serif;
+}
+
+#homeButton{
+    position: absolute;
+    left: 36vw ;
+    top: 49vh ;
+    font-size: 3rem;
+    padding: 0% 3% 0% 3%;
+    font-family: poppins;
+    font-weight: 400 ;
+    background-color: white;
+    color: rgb(190 0 254);
+    border: solid 5px rgb(190 0 254);
+    border-radius: 100px;
+    letter-spacing: 0.5%;
+    text-align: center;
+    transition : 1s ;
+    box-shadow: 0 5px 30px  rgb(190 0 254) inset, 0 5px 50px 0 rgb(190 0 254);
+}
+
+#homeButton:hover{
+    box-shadow: 0 5px 30px  rgb(190 0 254) inset, 0 5px 50px 0 rgb(190 0 254) ;
+}
+
+
+.overlay{
+    height: 100% ;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+
+
+/* scroller display    */
+#scroller{
+    position: fixed;
+    top: 11vh;
+    display: flex;
+    flex-direction: column;
+    height: 1vh;
+    width: 100vw;
+    z-index: 1;
+}
+
+#display-scroll{
+    height:1rem;
+    background-color:#ff1495 ;
+    width: 0%;
+}
+
+
+
+/* Contact Section And Social Handles .  */ 
+
+#contact-section{
+    position:absolute;
+    left: 0%;
+    top: 320vh;
+}
+
+#container{
+    height: 87vh ;
+    width: 100vw ;
+    background-color: #8c5b97;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap; */
+}
+
+#container > h1{
+    color: white;
+    margin: 10% 0 2% 33%;
+    font-family:'Montserrat' ;
+}
+
+form div{
+    display: block;
+    margin-top: 1%;
+}
+
+form div input{
+    padding-left: 3%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin-top: 1%;
+    border: none;
+}
+
+form label{
+    position: relative;
+    top: 40%;
+    left: 30%;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 1.5rem ;
+}
+form input{
+    position: relative;
+    top: 40%;
+    left: 30%;
+    border-radius: 100px;
+    border: none;
+    padding: 0.5% 0.8% 0.5% 0.8%;
+    outline: none;
+}
+ 
+#name{
+    margin-left: 12%;
+}
+#number{
+    margin-left: 8%;
+}
+#email{
+    margin-left: 7%;
+}
+
+
+
+input[type="submit"]{
+    margin-top: 2%;
+    margin-left: 10%;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    color:black;
+}
+
+#container a{
+    text-decoration: none;
+    position: relative;
+    left: 20%;
+    top: 10%;
+}
+
+
+.social-icon{
+    margin-left: 5% ;
+}
+
+
+/*   Planning section   ( main section )   */
+
+#goaPosition{
+    position: absolute;
+    top : 110vh ;
+    left: 10%;
+}
+
+.background{
+    background-color: black ;
+    height: 370px;
+    width: 490px;
+    position: absolute;
+    border-radius: 30px;
+    box-shadow: 0 5px 30px  rgb(0 0 0) inset, 0 5px 50px 0 rgb(0 0 0) ;
+
+}
+
+#goaTrip{
+    font-size: 2rem;
+    font-family: 'Montserrat';
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image{
+    position: absolute;
+    top: 15%;
+    padding-left: 2%;
+    border-radius: 20px;
+    box-shadow: 0 5px 30px  rgb(0 0 0) inset, 0 5px 50px 0 rgb(0 0 0) ;
+}
+
+#goaButton{
+    outline-style: none ;
+    border: 2px rgb(77, 129, 226) solid ;
+    border-radius: 100px;
+    padding: 1% 3% 1% 3% ;
+    color: cornflowerblue;
+}
+
+
+
+
+#sevenSistersPosition{
+    position: absolute;
+    top : 180vh ;
+    left: 7%;
+}
+
+#eastIndia{
+    font-size: 2rem;
+    font-family: 'Montserrat';
+}
+
+#eastButton{
+    outline-style: none ;
+    border: 2px rgb(77, 129, 226) solid ;
+    border-radius: 100px;
+    padding: 1% 3% 1% 3% ;
+    color: cornflowerblue;
+}
+
+
+
+#sunPosition{
+    position: absolute;
+    top : 250vh ;
+    left: 10%;
+}
+

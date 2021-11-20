@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@700&display=swap');
+
+
+#navBar{
+    border-bottom: 2px solid #668ec5;
+    position: fixed;
+    top: 0%;
+    z-index: 1;;
+    height: 6vw;             
+    width: 100vw;
+    background-color: #668ec5;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+#logo{
+    position: relative;
+    left: 10%;
+    top:20% ;
+    height: 80%;
+    width : 22% ;
+    display: inline-flex ;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+#logo a logo-img{
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+#navMenu{
+    display: inline-flex;
+    align-items: center;
+    position: absolute;
+    left: 50% ;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+}
+
+#navMenu .button{
+    border : solid 0px black ;
+    position:relative ;
+    background-color: transparent;
+    /* margin-top :10% ; */
+    border-radius: 100px;
+    padding: 10px 20px 10px 20px;
+    margin : 3% 10% 0% 5% ; 
+
+}
+
+#navMenu .button:hover{
+    color: white ;
+    background-color: #123c78;
+    transition: all 0.3s ease-in-out ;
+}
+
+
+/* scroller display    */
+#scroller{
+    position: fixed;
+    top: 11vh;
+    display: flex;
+    flex-direction: column;
+    height: 1vh;
+    width: 100vw;
+    z-index: 1;
+}
+
+#display-scroll{
+    height:1rem;
+    background-color:#000000 ;
+    width: 0%;
+}
+
+
+
+ 
+
+/*  mian trip section    */
+
+#extraSpacing{
+    height: 15vh;
+    background-color: white;
+    width: 100vw;
+}
+
+#tripSection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+    align-items: center;
+}
+
+
+#tripSection>div{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 40vw;
+    background-color: white;
+    margin: 2%;
+    border: 1px solid rgb(0, 0, 0) ;
+    border-radius: 20px;
+    box-shadow: 1px 1px 30px  rgb(0 0 0) inset, 10px -8px 30px 0 rgb(0 0 0)
+	}
+	
+	
+
+.tripImage{
+    height: 50%;
+    width: 100%;
+    background-color:white;
+    border-radius:20px ;
+    /* box-shadow: 1px 1px 30px  rgb(0 0 0) inset, 10px -8px 30px 0 rgb(0 0 0)} ; */
+
+}
+
+#lehLadakh{
+    background-image: url("resources/leh.jpg");
+    background-position: center;
+    border: 1px solid black;
+}
+
+#goa{
+    background-image: url("resources/goaTrip.jpg");
+    background-position: center;
+    border: 1px solid black;
+}
+
+#sikkim{
+    background-image: url("resources/sikkim-resized.jpg");
+    background-position: center;
+    border: 1px solid black;
+}
+
+#manali{
+    background-image: url("resources/Solang-Valley-Manali.jpg");
+    background-position: center;
+    border: 1px solid black;
+}
+
+#custom{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+
+
+
+
+}
+.container {
+  height: 200px;
+  position: relative;
+ 
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 37%;
+  
+
+}
+
+
+
+.description{
+	font-family: 'Dancing Spirit', cursive;
+	font-weight: 500; 
+	margin: 40px 10px;
+}
+
+#custom>div{
+    font-family: 'Montserrat';
+    color: white;
+}
+
+#customise{
+    color: #4d81e2 ;
+    outline: none;
+    border-radius: 30px;
+    border: 2px solid #002d6d;
+    font-size: 150%;
+    object-fit: cover;
+    transition: all 0.3s ease;
+
+}
+#customise:hover{
+    box-shadow: 0 0px 20px  #006aff inset, 0 0px 20px 10px #006aff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contact Section And Social Handles .  */ 
+
+#contact-section{
+    position:absolute;
+    left: 0%;
+    top: 330vh;
+}
+
+#container{
+    height: 87vh ;
+    width: 100vw ;
+    background-color: #668ec5;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap; */
+}
+
+#container > h1{
+    color: white;
+    margin: 10% 0 2% 33%;
+    font-family:'Montserrat' ;
+}
+
+form div{
+    display: block;
+    margin-top: 1%;
+}
+
+form div input{
+    padding-left: 3%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin-top: 1%;
+    border: none;
+}
+
+form label{
+    position: relative;
+    top: 40%;
+    left: 30%;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 1.5rem ;
+}
+form input{
+    position: relative;
+    top: 40%;
+    left: 30%;
+    border-radius: 100px;
+    border: none;
+    padding: 0.5% 0.8% 0.5% 0.8%;
+    outline: none;
+}
+ 
+#name{
+    margin-left: 12%;
+}
+#number{
+    margin-left: 8%;
+}
+#email{
+    margin-left: 7%;
+}
+
+
+
+input[type="submit"]{
+    margin-top: 2%;
+    margin-left: 10%;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    color:black;
+}
+
+#container a{
+    text-decoration: none;
+    position: relative;
+    left: 20%;
+    top: 10%;
+}
+
+
+.social-icon{
+    margin-left: 5% ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*    extra thing i did for responsiveness   we will see this later after project 
+
+
+
+#navbar{
+    height: 6vw;             
+    width: 100vw;
+    background-color: white;
+}
+
+#trenchLogo{
+    display: inline-block;
+    position: absolute;
+    object-fit: contain;
+    left: 10%;
+}
+
+
+
+@media screen and (max-width : 600px) {
+    #navbar{
+        height: 10vh;
+        width: 100vw;
+        background-color: white;
+    }
+
+    #trenchLogo{
+        display: inline-block;
+        height: 210px;
+        width: 60px;
+        position: absolute;
+        object-fit: contain;
+        left: 4%;
+    }
+}
+
+
+
+*/

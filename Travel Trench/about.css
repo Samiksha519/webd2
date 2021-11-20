@@ -1,0 +1,207 @@
+
+/*  Navbar Section   */
+
+div{
+    display: inline-block;
+}
+
+
+#navBar{
+    position: fixed;
+    top: 0%;
+    z-index: 1;;
+    height: 6vw;             
+    width: 100vw;
+    background-color: white;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+#logo{
+    position: relative;
+    left: 10%;
+    top:20% ;
+    height: 80%;
+    width : 22% ;
+    display: inline-flex ;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+#logo a logo-img{
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+#navMenu{
+    display: inline-flex;
+    align-items: center;
+    position: absolute;
+    left: 50% ;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+}
+
+#navMenu .button{
+    border : solid 0px black ;
+    position:relative ;
+    background-color: transparent;
+    /* margin-top :10% ; */
+    border-radius: 100px;
+    padding: 10px 20px 10px 20px;
+    margin : 3% 10% 0% 5% ; 
+
+}
+
+#navMenu .button:hover{
+    color: white ;
+    background-color: #60b0ba;
+    transition: all 0.3s ease-in-out ;
+}
+
+
+
+/*   About section   */ 
+
+#about{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 15vh;
+    margin-left: 10vw;
+    background-color : #60b0ba ;
+    height: 80vh;
+    width: 80vw;
+}
+
+#trench{
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    margin-top: 8vh ;
+}
+
+#nowTellThemAboutUs{
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    margin-top:7vh ;
+    margin-left: 3vw;
+    margin-right: 3vw;
+
+}
+
+
+/* scroller display    */
+#scroller{
+    position: fixed;
+    top: 11vh;
+    display: flex;
+    flex-direction: column;
+    height: 1vh;
+    width: 100vw;
+    z-index: 1;
+}
+
+#display-scroll{
+    height:1rem;
+    background-color:#005f6b ;
+    width: 0%;
+}
+
+
+
+
+
+
+/* Contact Section And Social Handles .  */ 
+
+#contact-section{
+    position:absolute;
+    left: 0%;
+    top: 100vh;
+}
+
+#container{
+    height: 87vh ;
+    width: 100vw ;
+    background-color: #60b0ba;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap; */
+}
+
+#container > h1{
+    color: white;
+    margin: 10% 0 2% 33%;
+    font-family:'Montserrat' ;
+}
+
+form div{
+    display: block;
+    margin-top: 1%;
+}
+
+form div input{
+    padding-left: 3%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin-top: 1%;
+    border: none;
+}
+
+form label{
+    position: relative;
+    top: 40%;
+    left: 30%;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 1.5rem ;
+}
+form input{
+    position: relative;
+    top: 40%;
+    left: 30%;
+    border-radius: 100px;
+    border: none;
+    padding: 0.5% 0.8% 0.5% 0.8%;
+    outline: none;
+}
+ 
+#name{
+    margin-left: 12%;
+}
+#number{
+    margin-left: 8%;
+}
+#email{
+    margin-left: 7%;
+}
+
+
+
+
+input[type="submit"]{
+    margin-top: 2%;
+    margin-left: 10%;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    color:black;
+}
+
+#container a{
+    text-decoration: none;
+    position: relative;
+    left: 20%;
+    top: 10%;
+}
+
+
+.social-icon{
+    margin-left: 5% ;
+}
+
